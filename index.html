@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> -->
+    
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Inbuild </title>
+  </head>
+  <body>
+    
+    <header class="header header--home">
+      <div class="container">
+        <div class="header__container flex">
+          <div class="header__logo">
+            <img src="./assets/images/logo.svg" alt="" />
+          </div>
+          <ul class="flex flex--acenter gap--48 header__nav">
+            <li><a href="./equipment.html" class="header__link">Еquipment</a></li>
+            <li><a href="./blogs.html" class="header__link active">Blog</a></li>
+            <li><a href="./about.html" class="header__link">About us</a></li>
+          </ul>
+          <ul class="flex flex--acenter gap--48 header__user-menu">
+            <li>
+              <a href="" class="header__link flex--acenter flex gap--16">
+                My booking
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="svg__stroke"
+                >
+                  <path
+                    d="M9.5 13H22.5"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.5 17H22.5"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4 26V7C4 6.73478 4.10536 6.48043 4.29289 6.29289C4.48043 6.10536 4.73478 6 5 6H27C27.2652 6 27.5196 6.10536 27.7071 6.29289C27.8946 6.48043 28 6.73478 28 7V26L24 24L20 26L16 24L12 26L8 24L4 26Z"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="header__link flex--acenter flex gap--16">
+                Sign In
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  class="svg__stroke"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z"
+                    stroke-width="2"
+                    stroke-miterlimit="10"
+                  />
+                  <path
+                    d="M16 20C18.7614 20 21 17.7614 21 15C21 12.2386 18.7614 10 16 10C13.2386 10 11 12.2386 11 15C11 17.7614 13.2386 20 16 20Z"
+                    stroke-width="2"
+                    stroke-miterlimit="10"
+                  />
+                  <path
+                    d="M7.97485 24.9218C8.72812 23.4408 9.8765 22.1971 11.2929 21.3284C12.7093 20.4598 14.3384 20 16 20C17.6615 20 19.2906 20.4598 20.707 21.3284C22.1234 22.1971 23.2718 23.4407 24.0251 24.9217"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <button class="btn--burger"></button>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <div class="banner container">
+        <img src="./assets/images/banner.jpg" alt="" />
+        <h1 class="banner__title">
+          The most reasonable way to rent construction equipment
+        </h1>
+    
+        <div class="form">
+          <div class="form--main">
+            <div class="form__input track">
+              <input type="text" placeholder="Equipment" />
+            </div>
+            <div class="form__input map">
+              <input type="text" placeholder="Location" />
+            </div>
+            <div class="form__input del-date">
+              <input type="text" placeholder="Delivery Date" />
+            </div>
+            <div class="form__input col-date">
+              <input type="text" placeholder="Collection Date" />
+            </div>
+            <button class="btn btn--search">
+              Search
+              <img src="../assets/images/Search.svg" alt="" />
+            </button>
+          </div>
+          <div class="flex flex--acenter gap--48 form__delivery">
+            <label class="custom-radio">
+              <input type="radio" name="t" />
+              <span class="checkmark"></span>
+              Delivery
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="t" />
+              <span class="checkmark"></span>
+              Self-Pickup
+            </label>
+          </div>
+        </div>
+      </div>
+    
+      <div class="equipment container flex flex--column flex--acenter">
+        <img src="./assets/images/equip.png" alt="" />
+    
+        <h2 class="equipment__title brackets">Our equipment</h2>
+        <div class="equipment__desc">
+          Find the best construction equipment rental deals
+        </div>
+      </div>
+    
+      <div class="tabs container">
+        <div class="tabs__top flex flex--jcenter">
+          <ul class="tabs__nav flex gap--8">
+            <li><button class="tabs__nav-item active">All</button></li>
+            <li><button class="tabs__nav-item">Truck cranes</button></li>
+            <li><button class="tabs__nav-item">Еxcavators</button></li>
+            <li><button class="tabs__nav-item">Bulldozers</button></li>
+            <li><button class="tabs__nav-item">Loaders</button></li>
+          </ul>
+        </div>
+        <div class="tabs__content">
+          <div class="card">
+            <a href="">
+              <div class="card__thumb">
+                <img src="./assets/images/card_thumb.png" alt="" />
+              </div>
+              <div class="card__title">FORKLIFT</div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="">
+              <div class="card__thumb">
+                <img src="./assets/images/card_thumb2.png" alt="" />
+              </div>
+              <div class="card__title">FORKLIFT</div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="">
+              <div class="card__thumb">
+                <img src="./assets/images/card_thumb3.png" alt="" />
+              </div>
+              <div class="card__title">FORKLIFT</div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="">
+              <div class="card__thumb">
+                <img src="./assets/images/card_thumb4.png" alt="" />
+              </div>
+              <div class="card__title">FORKLIFT</div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="">
+              <div class="card__thumb">
+                <img src="./assets/images/card_thumb5.png" alt="" />
+              </div>
+              <div class="card__title">FORKLIFT</div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="">
+              <div class="card__thumb">
+                <img src="./assets/images/card_thumb6.png" alt="" />
+              </div>
+              <div class="card__title">FORKLIFT</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="rent">
+        <div class="container">
+          <div class="rent__title brackets">Why Rent With Us?</div>
+          <div class="rent__items grid grid--col-4 gap--16">
+            <div class="rent__item">
+              <div class="rent__img">
+                <img src="./assets/images/Currency.svg" alt="" />
+              </div>
+              <div>
+                <div class="rent__item-title">Without collateral</div>
+                <div class="rent__item-text">
+                  For customers who have used the services more than 3 times
+                </div>
+              </div>
+            </div>
+            <div class="rent__item">
+              <div class="rent__img">
+                <img src="./assets/images/Path.svg" alt="" />
+              </div>
+              <div>
+                <div class="rent__item-title">We will deliver</div>
+                <div class="rent__item-text">
+                  From the rental amount of $ 500 - free delivery
+                </div>
+              </div>
+            </div>
+            <div class="rent__item">
+              <div class="rent__img">
+                <img src="./assets/images/ClockClockwise.svg" alt="" />
+              </div>
+              <div>
+                <div class="rent__item-title">Quickly</div>
+                <div class="rent__item-text">
+                  Registration of rental of special equipment in just 5 minutes!
+                </div>
+              </div>
+            </div>
+            <div class="rent__item">
+              <div class="rent__img">
+                <img src="./assets/images/ShieldCheck.svg" alt="" />
+              </div>
+              <div>
+                <div class="rent__item-title">Safely</div>
+                <div class="rent__item-text">
+                  All equipment is insured and in excellent condition
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="special-container">
+        <div class="special">
+          <div class="special__subtitle">Is it all wrong?</div>
+          <div class="special__title">Need something <span>special?</span></div>
+          <div class="special__text">
+            There is much more in our fleet that we can show you. Call us or leave
+            your phone number and we will help you choose what you need.
+          </div>
+          <div class="flex flex--jcenter">
+            <a href="./index2.html" class="btn">Leave a request</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="popular">
+        <div class="container">
+          <div class="popular__title brackets">Popular equipment</div>
+        </div>
+      </div>
+    
+      <div class="faq bg--white fix--footer">
+        <div class="faq-container">
+          <div class="faq__title brackets">FAQ</div>
+          <div class="faq__content">
+            <div class="faq__item active">
+              <div class="faq__item-title flex flex--acenter flex--sb">
+                What exactly is the security deposit?
+                <button class="btn--plus"></button>
+              </div>
+              <div class="faq__item-content">
+                The amount of the deposit in our rental is comparatively lower than
+                in the other two rentals. For some items, it is significantly lower.
+                Clients we started serving without collateral, we continue, in the
+                main, to serve in the same way. All new clients contribute
+                collateral and there are no exceptions to this rule.
+              </div>
+            </div>
+            <div class="faq__item">
+              <div class="faq__item-title flex flex--acenter flex--sb">
+                But what if the equipment suddenly breaks down during operation?
+                <button class="btn--plus"></button>
+              </div>
+            </div>
+            <div class="faq__item">
+              <div class="faq__item-title flex flex--acenter flex--sb">
+                Is it possible to arrange the delivery of equipment to the site?
+                <button class="btn--plus"></button>
+              </div>
+            </div>
+            <div class="faq__item">
+              <div class="faq__item-title flex flex--acenter flex--sb">
+                Is it possible to book equipment in advance?
+                <button class="btn--plus"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <footer class="footer">
+      <div class="container footer__wrapper">
+        <div>
+          <div class="footer__title">Company</div>
+          <ul class="flex flex--column gap--16">
+            <li><a href="" class="footer__nav-link">About us</a></li>
+            <li><a href="" class="footer__nav-link">Sign up</a></li>
+            <li><a href="" class="footer__nav-link">Equipment</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__title">Fast Access</div>
+          <ul class="flex flex--column gap--16">
+            <li><a href="" class="footer__nav-link">Blogs</a></li>
+            <li><a href="" class="footer__nav-link">User Quick Guide</a></li>
+            <li><a href="" class="footer__nav-link">Partner Quick Guide</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__title">Contact Us</div>
+          <ul class="flex flex--column gap--16">
+            <li><a href="tel:" class="footer__nav-link">+123-12345 3875</a></li>
+            <li>
+              <a href="emailto:" class="footer__nav-link">mail@address.com</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__title">© All Rights Reserved</div>
+          <div class="footer__logo">
+            <img src="./assets/images/logo.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
